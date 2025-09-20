@@ -1,0 +1,87 @@
+body{
+        background-color: #fcf7ef!important;
+    }
+    .sidebar{
+        background-color: #111;
+        height: 100%;
+        width: 180px!important;
+        position: fixed;
+    }
+
+    .sidebar a{
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #818181;
+    }
+
+    .overview{
+        background-color: white;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 160px;
+        font-weight: bold;
+        padding: 8px;
+    } 
+
+    .menu{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 350px;
+        height: 90px;
+    } 
+
+    .saved{
+        font-size: 12px;
+    }
+     .total{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        line-height: 80%;
+        background-color: #fcf7ef;
+        width: 250px;
+        padding: 25px 20px 10px 20px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border-radius: 15px;
+    } 
+
+    .ball{
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .entertainment{
+        width: 120px;
+    }
+
+    .chart{
+        display: block;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .emma{
+        width: 25px;
+        border-radius: 50px;
+    }
+
+    .august{
+        font-size: 12px;
+    }
+
+    .line{
+       opacity: 0.1;
+        width: 630px;   
+    }
+
+    .paid{
+        background-color: #fcf7ef;
+        padding: 10px 5px 10px 5px; 
+        border-radius: 10px; 
+        font-size: 12px;
+    }

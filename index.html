@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- this is the sidebar -->
+    <div class="sidebar col-sm-12 col-xs-12 col-md-3 col-lg-2 col-xl-3 d-md-block d-none">
+        <div class="w3-sidebar w3-bar-block">
+            <div class="text-white fw-bold pt-4 p-3">
+                <h4 class="w3-bar-item">finance</h4>
+            </div>
+            <div class="view pt-4">
+                <div class="overview">
+                    <a href="#overview"><i class="bi bi-house-door-fill text-success"></i>&nbsp;&nbsp;Overview</a>
+                </div>
+                <div class="fw-bold p-2">
+                    <a href="#transaction"><i class="bi bi-arrow-down-up"></i>&nbsp;&nbsp;Transaction</a>
+                </div>
+                <div class="fw-bold p-2">
+                    <a href="#budgets"><i class="bi bi-pie-chart-fill"></i>&nbsp;&nbsp;Budgets</a>
+                </div>
+                <div class="fw-bold p-2">
+                    <a href="#pots"><i class="bi bi-currency-dollar"></i>&nbsp;&nbsp;Pots</a>
+                </div>
+                <div class="fw-bold p-2">
+                    <a href="#bills"><i class="bi bi-cash"></i>&nbsp;&nbsp;Recurring Bills</a>
+                </div>
+                <div class="menu fw-bold">
+                    <a href="#bills"><i class="bi bi-arrow-left-circle-fill"></i>&nbsp;&nbsp;Minimize menu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Page Content, first row -->
+       <div class="oview">
+            <div style="margin-left:180px">
+                <div class="w3-container w3-teal">
+                    <h5 class="pt-4 ps-3 fw-bold">Overview</h5>
+                </div>
+                <div>
+                    <div class="container text-start pt-2">
+                        <div class="row align-items-start g-4">
+                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4">
+                                <div class="card bg-dark pt-2 ps-3">
+                                    <div>
+                                        <p class="text-secondary lh-1">Current balance</p>
+                                        <p class=" fs-4 fw-bold text-white">&dollar;4,836.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4">
+                                <div class="card pt-2 ps-3">
+                                    <p class="text-secondary lh-1">Income</p>
+                                    <p class="fs-4 fw-bold">&dollar;3,814.25</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4">
+                                <div class="card pt-2 ps-3">
+                                    <p class="text-secondary lh-1">Expenses</p>
+                                    <p class="fs-4 fw-bold">&dollar;1,700.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                    <!-- second row -->
+                <div class="container text-center mt-3">
+                    <div class="row text-center"> 
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="card ps-2">
+                                <div class="d-flex justify-content-between pt-2 pb-1">
+                                    <div class="fw-bold">Pots</div>
+                                    <div class="text-secondary pe-2">See details&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-caret-right text-secondary"></i></div>
+                                </div>
+
+                                <div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="total">
+                                            <i class="bi bi-currency-dollar text-success pt-3 fs-4"></i>
+                                            <div>
+                                                <p class="saved">Total Saved</p>
+                                                <p class="fs-2 fw-bolder lh-1">$850</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-flex-end">
+                                            <div class="chart">
+                                                <div class="ps-3 border-start border-info">
+                                                    <div class="entertainment">
+                                                        <div class="text-secondary" style="font-size: 12px;">Savings</div>
+                                                        <div class="fw-bold">$159</div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="ps-3 border-start border-danger">
+                                                    <div class="entertainment">
+                                                        <div class="text-secondary" style="font-size: 12px;">Concert Ticket</div>
+                                                        <div class="fw-bold">$110</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="chart">
+                                                <div class="ps-3 border-start border-primary">
+                                                    <div class="entertainment">
+                                                        <div class="text-secondary" style="font-size: 12px;">Gift</div>
+                                                        <div class="fw-bold">$40.00</div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="ps-3 border-start border-success">
+                                                    <div class="entertainment">
+                                                        <div class="text-secondary" style="font-size: 12px;">Laptop</div>
+                                                        <div class="fw-bold">$10.00</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                            <div class="card mb-2 mt-3">
+                                <div class="d-flex justify-content-between pt-2">
+                                    <div class="fw-bold ps-2">Budgets</div>
+                                    <div class="text-secondary pe-2">See details&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-caret-right text-secondary"></i></div>
+                                </div>
+
+                                <div class="d-flex justify-content-between pt-3 pb-1">
+                                    <div class="ball">
+                                        <i class="bi bi-pie-chart-fill text-info ps-5"></i>
+                                    </div>
+
+                                    <div class="chart">
+                                        <div class="ps-2 border-start border-info lh-2">
+                                            <div class="entertainment">
+                                                <div class="text-secondary" style="font-size: 12px;">Entertainment</div>
+                                                <div class="fw-bold">$50.00</div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="ps-2 border-start border-primary lh-2">
+                                            <div class="entertainment">
+                                                <div class="text-secondary" style="font-size: 12px;">Bills</div>
+                                                <div class="fw-bold">$450.00</div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="ps-2 border-start border-warning lh-2">
+                                            <div class="entertainment">
+                                                <div class="text-secondary" style="font-size: 12px;">Dining out</div>
+                                                <div class="fw-bold">$75.00</div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="ps-2 border-start border-success lh-2">
+                                            <div class="entertainment">
+                                                <div class="text-secondary" style="font-size: 12px;">Personal care</div>
+                                                <div class="fw-bold">$100.00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- third row  -->
+
+                <div class="container text-center mt-2">
+                    <div class="row text-center">
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-7 col-xl-7">
+                            <div class="card mb-3">
+                                <div class="d-flex justify-content-between pt-3 pb-3">
+                                    <div class="ps-3 fw-bold">Transactions</div>
+                                    <div class="text-secondary pe-3">View all&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-caret-right text-secondary"></i></div>
+                                </div>
+
+                                <div class="ps-3 pe-2 d-flex justify-content-between">
+                                    <div>
+                                        <img class="emma" src="images/Emma.jpg" alt="Emma">
+                                        <span class="august fw-bold">Emma Richardson</span>
+                                    </div>
+                                    <div class="august">
+                                        <div class="text-success fw-bolder">+$75.50</div>
+                                        <div class="text-secondary">19 Aug 2024</div>
+                                    </div>
+                                </div>
+                                <div class="ps-3"><hr class="line"></div>
+
+                                <div class="ps-3 pe-2 d-flex justify-content-between">
+                                    <div>
+                                        <img class="emma" src="images/savory.jpg" alt="Emma">
+                                        <span class="august fw-bold">Savory Bites Bistro</span>
+                                    </div>
+                                    <div class="august">
+                                        <div class="fw-bolder">-$55.50</div>
+                                        <div class="text-secondary">18 Aug 2024</div>
+                                    </div>
+                                </div>
+                                <div class="ps-3"><hr class="line"></div>
+
+                                <div class="ps-3 pe-3 d-flex justify-content-between">
+                                    <div>
+                                        <img class="emma" src="images/Sun.jpg" alt="Emma">
+                                        <span class="august fw-bold">Daniel Carter</span>
+                                    </div>
+                                    <div class="august">
+                                        <div class="fw-bolder">-$42.30</div>
+                                        <div class="text-secondary">18 Aug 2024</div>
+                                    </div>
+                                </div>
+                                <div class="ps-3"><hr class="line"></div>
+
+                                <div class="ps-3 pe-3 d-flex justify-content-between">
+                                    <div>
+                                        <img class="emma" src="images/Park.jpg" alt="Emma">
+                                        <span class="august fw-bold">Sun Park</span>
+                                    </div>
+                                    <div class="august">
+                                        <div class="text-success fw-bolder">+$120.00</div>
+                                        <div class="text-secondary">17 Aug 2024</div>
+                                    </div>
+                                </div>
+                                <div class="ps-3"><hr class="line"></div>
+
+                                <div class="ps-3 pe-3 pb-1 d-flex justify-content-between">
+                                    <div>
+                                        <img class="emma" src="images/urban.jpg" alt="Emma">
+                                        <span class="august fw-bold">Urban Services Hub</span>
+                                    </div>
+                                    <div class="august">
+                                        <div class="fw-bolder">-$65.00</div>
+                                        <div class="text-secondary">17 Aug 2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+                            <div class="card pe-3 ps-3"> 
+                                <div class="d-flex justify-content-between pt-2 pb-3">
+                                    <div class="fw-bold ps-2">Recurring Bills</div>
+                                    <div class="text-secondary pe-2">See details&nbsp;&nbsp;&nbsp;<i class="bi bi-caret-right text-secondary"></i></div>
+                                </div>
+                                
+                                <div>
+                                    <div class="pb-2">
+                                        <div class="paid">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="text-secondary">Paid Bills</div>
+                                                <div class="fw-bold">$190.00</div> 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pb-2">
+                                        <div class="paid">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="text-secondary">Total Upcoming</div>
+                                                <div class="fw-bold">$194.98</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="pb-2 mb-3">
+                                        <div class="paid">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="text-secondary">Due Soon</div>
+                                                <div class="fw-bold">$59.98</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>  
+ 
+
+
+
+
