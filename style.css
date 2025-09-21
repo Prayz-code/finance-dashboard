@@ -3,9 +3,7 @@ body{
     }
     .sidebar{
         background-color: #111;
-        height: 100%;
-        width: 180px!important;
-        position: fixed;
+        /* height: 100%!important; */
     }
 
     .sidebar a{
@@ -24,12 +22,9 @@ body{
         padding: 8px;
     } 
 
-    .menu{
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
-        width: 350px;
-        height: 90px;
+    .menu{ 
+       margin-top: 20px;
+      
     } 
 
     .saved{
@@ -44,15 +39,11 @@ body{
         width: 250px;
         padding: 25px 20px 10px 20px;
         margin-bottom: 15px;
-        margin-left: 15px;
         border-radius: 15px;
     } 
 
     .ball{
         font-size: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .entertainment{
@@ -62,7 +53,6 @@ body{
     .chart{
         display: block;
         text-align: left;
-        padding: 5px;
     }
 
     .emma{
@@ -76,7 +66,7 @@ body{
 
     .line{
        opacity: 0.1;
-        width: 630px;   
+        width: 500px;   
     }
 
     .paid{
