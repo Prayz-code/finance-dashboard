@@ -12,37 +12,13 @@ body{
         color: #818181;
     }
 
-    .menu{ 
-       margin-top: 20px; 
-    } 
-
     .saved{
         font-size: 12px;
     }
-    /*
-     .total{
-        
-        align-items: left;
-        line-height: 80%;
-        background-color: #fcf7ef;
-         width: 250px; 
-        padding: 25px 20px 10px 20px;
-        margin-bottom: 15px;
-        border-radius: 15px;
-    } 
-    */
+    
     .ball{
         font-size: 150px;
     }
-
-    /* .entertainment{
-        width: 120px;
-    }  */
-
-    /* .chart{
-        display: block;
-        text-align: left;
-    } */
 
     .emma{
         width: 25px;
