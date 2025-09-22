@@ -3,7 +3,6 @@ body{
     }
     .sidebar{
         background-color: #111;
-        /* height: 100%!important; */
     }
 
     .sidebar a{
@@ -13,18 +12,8 @@ body{
         color: #818181;
     }
 
-    .overview{
-        background-color: white;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        width: 160px;
-        font-weight: bold;
-        padding: 8px;
-    } 
-
     .menu{ 
-       margin-top: 20px;
-      
+       margin-top: 20px; 
     } 
 
     .saved{
