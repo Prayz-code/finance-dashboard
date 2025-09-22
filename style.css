@@ -19,30 +19,30 @@ body{
     .saved{
         font-size: 12px;
     }
+    /*
      .total{
-        display: flex;
-        justify-content: center;
+        
         align-items: left;
         line-height: 80%;
         background-color: #fcf7ef;
-        width: 250px;
+         width: 250px; 
         padding: 25px 20px 10px 20px;
         margin-bottom: 15px;
         border-radius: 15px;
     } 
-
+    */
     .ball{
         font-size: 150px;
     }
 
-    .entertainment{
+    /* .entertainment{
         width: 120px;
-    }
+    }  */
 
-    .chart{
+    /* .chart{
         display: block;
         text-align: left;
-    }
+    } */
 
     .emma{
         width: 25px;
