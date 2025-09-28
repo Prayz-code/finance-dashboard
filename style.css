@@ -1,5 +1,8 @@
 body{
         background-color: #fcf7ef!important;
+        margin: 0;
+        padding: 0;
+        
     }
     .sidebar{
         background-color: #111;
